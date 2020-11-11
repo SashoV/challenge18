@@ -1,0 +1,218 @@
+body {
+	background-color: #e7e7e7;
+}
+
+/*use color:orange for the orange color*/
+
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+
+/*use color:grey for the social-share icons on hover*/
+
+.main {
+	background-color: white;
+}
+
+#navbar {
+	display: flex;
+	align-items: center;
+	height: 90px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.logo {
+	width: 75px;
+}
+
+#navbar ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+#navbar li {
+	display: inline-block;
+}
+
+#navbar a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a:hover {
+	color: orange;
+	background-color: #e7e7e7;
+	text-decoration: none;
+}
+
+a#search, a#bag {
+	padding: 0;
+}
+
+a#search {
+	margin-right: 10px;
+}
+
+a#search:hover, a#bag:hover {
+	background-color: white;
+}
+
+.header {
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.header h1 {
+	font-size: 48px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.filters h3 {
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.filters h4 {
+	font-weight: bold;
+}
+
+.filters ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.filters li {
+	margin-bottom: 10px;
+}
+
+.filters a:hover, .filters a:focus {
+	text-decoration: none;
+}
+
+.badge {
+	color: black;
+	background-color: #e7e7e7;
+	font-weight: bold;
+}
+
+.filter_btn span {
+	color: black;
+}
+
+.filter_text {
+	color: orange!important;
+	font-weight: bold;
+}
+
+.filter_badge {
+	background-color: orange!important;
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #f8f8f8;
+	padding-bottom: 40px;
+}
+
+.footer h4 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer ul {
+	padding-left: 0;
+}
+
+.footer li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+.social {
+	margin-top: 35px;
+}
+
+.foot-1 a {
+	padding: 12px 15px;
+	background-color: orange;
+	color: white;
+	margin-right: 10px;
+}
+
+.foot-1 a:hover {
+	background-color: gray;
+	color: white;
+}
+
+.foot-2, .foot-3, .foot-4 {
+	border-left: 1px solid #e7e7e7;
+}
+
+.foot-1, .foot-2, .foot-3, .foot-4 {
+	margin-top: 60px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards {
+	min-height: 80vh;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.card_container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.orange_bg {
+	background-color: orange;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.thumbnail {
+	padding: 0;
+	border-width: 2px;
+}
+
+.thumbnail:hover {
+	border-color: orange;
+	cursor: pointer;
+}
+
+.thumbnail>img {
+	padding: 20px 5px;
+	height: 170px;
+}
+
+.thumbnail:hover img {
+	transform: scale(1.05);
+	transition-duration: 0.5s;	
+}
+
+#logo a:hover {
+	background-color: white;
+}
